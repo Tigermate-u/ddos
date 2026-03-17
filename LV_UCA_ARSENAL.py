@@ -1,11 +1,3 @@
-#!/bin/bash
-# LV-UCA ARSENAL v3.2 - LINE 3 FIXED + ULTRA STABLE
-echo "🔧 Fixing Line 3 error & deploying v3.2..."
-
-cat > LV_UCA_ARSENAL.py << 'EOF'
-#!/usr/bin/env python3
-# LV-UCA ULTIMATE ARSENAL v3.2 - LINE 3 FIXED | NUCLEAR EDITION
-# LEVIATHAN + Cyber24 Under Cover Agency | @LV_UCA
 
 import sys
 import os
@@ -232,15 +224,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-EOF
 
-chmod +x LV_UCA_ARSENAL.py
-
-# Minimal dependencies only
-pip3 install colorama urllib3 --quiet 2>/dev/null || echo "No pip needed - using built-ins"
-
-echo "✅ LINE 3 FIXED - LV-UCA v3.2 ULTRA STABLE!"
-echo "✅ NO IMPORT ERRORS - MINIMAL DEPENDENCIES"
-echo "🚀 RUN NOW:"
 echo "  python3 LV_UCA_ARSENAL.py http://target.com --nuclear -t 1000"
 echo "  python3 LV_UCA_ARSENAL.py 8.8.8.8 --syn --udp --botnet 2000"
